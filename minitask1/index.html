@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div {
+            display: flex;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding-inline: 20px;
+            padding-block: 5px;
+        }
+
+        input {
+            border: none;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <input type="password" name="password" id="password">
+        <img id="eyePass" src="./src/icons8-closed-eye-50.png" width="20px" alt="eye closed">
+    </div>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
